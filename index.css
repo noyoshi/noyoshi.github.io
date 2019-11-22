@@ -1,3 +1,7 @@
+html {
+  font-family: monospace;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -10,8 +14,15 @@ a {
 .container {
   max-width: 700px;
   margin: auto;
+  margin-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  border-style: dashed;
+  border-width: thin;
+}
+
+.content {
+  padding-bottom: 20px;
 }
 
 .navbar {
@@ -34,4 +45,15 @@ a {
 .menu_item {
   margin-left: 8px;
   text-decoration: underline;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: rgb(36, 36, 36);
+    color: rgb(213, 191, 177);
+  }
+
+  a {
+    color: rgb(136, 173, 162);
 }
