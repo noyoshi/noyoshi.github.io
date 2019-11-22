@@ -1,0 +1,37 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.dark {
+  background-color: rgb(36, 36, 36);
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.header {
+  text-align: left;
+  font-size: 35px;
+}
+
+.menu_items {
+  float: right;
+  font-size: 20px;
+  margin-top: 13px; /* header pixel size - menu item pixel size - the approx size of underline*/
+  display: inline-block;
+}
+
+.menu_item {
+  margin-left: 8px;
+  text-decoration: underline;
+}
