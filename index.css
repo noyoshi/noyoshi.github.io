@@ -11,6 +11,23 @@ a {
   background-color: rgb(36, 36, 36);
 }
 
+.project_tools {
+  float: right;
+  font-size: 12px;
+  font-weight: normal;
+  padding-top: 6px;
+  color: rgb(214, 169, 99);
+}
+
+.project_title {
+  text-decoration: underline;
+}
+
+.social {
+  font-size: 20px;
+  color: rgb(218, 112, 101);
+}
+
 .container {
   max-width: 700px;
   margin: auto;
