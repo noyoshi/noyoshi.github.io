@@ -1,10 +1,11 @@
 html {
   font-family: monospace;
+  background-color: rgb(249, 245, 218);
 }
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: rgb(76, 113, 102);
 }
 
 .dark {
@@ -16,7 +17,7 @@ a {
   font-size: 12px;
   font-weight: normal;
   padding-top: 6px;
-  color: rgb(214, 169, 99);
+  color: rgb(174, 129, 59);
 }
 
 .project_title {
@@ -25,7 +26,7 @@ a {
 
 .social {
   font-size: 20px;
-  color: rgb(218, 112, 101);
+  color: rgb(198, 92, 81);
 }
 
 .container {
@@ -36,6 +37,7 @@ a {
   padding-right: 20px;
   border-style: dashed;
   border-width: thin;
+  border-color: rgb(20, 20, 20);
 }
 
 .content {
@@ -71,6 +73,20 @@ a {
     color: rgb(213, 191, 177);
   }
 
+  .container {
+    border-color: rgb(213, 191, 177);
+  }
+
   a {
     color: rgb(136, 173, 162);
+  }
+
+  .social {
+    color: rgb(218, 112, 101);
+  }
+
+  .project_tools {
+    color: rgb(214, 169, 99);
+  }
 }
+
